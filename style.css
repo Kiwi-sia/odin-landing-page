@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+span a {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 15%;
+    height: 60px;
+}
+
+header ul {
+    display: flex;
+    gap: 24px;
+}
+
+header span {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    color: #E5E7EB;
+}
+/* SECTION 1 - mewsome*/
+
+.mewsome {
+    background-color:#1f2937;
+    display: flex;
+    padding: 8% 15%;
+    color: #F9FAF8;
+    justify-content: space-between;
+    gap: 4%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: F9FAF8;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    background-color: #3882F6;
+    display: block;
+    padding: 10px 35px;
+    border-radius: 8px;
+    margin-top: 3%;
+    flex-grow: 0;
+    font-weight: bold;
+    align-self: baseline;
+}
+
+img {
+    padding: 5px;
+    border: solid white 1px;
+    border-radius: 8px
+}
+
+/*Section 2 - boxes*/
+.informewtion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 15%;
+}
+
+.container {
+    display: flex;
+    padding: 5% 9%;
+    text-align: center;
+    gap: 6%;
+    padding-bottom: 10%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+div.box img {
+    padding: 6px;
+    border-radius: 16px;
+    border: solid #3882F6 4px;
+}
+
+div.box p {
+    margin-top: 3%;
+    color: #1F2937;
+}
+
+/* Section 3 - Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+    padding: 8% 20%;
+}
+
+.quote span {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+    padding-right: 8%;
+}
+
+.quote p {
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Section 4 - Action */
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bluebox {
+    color: #F9FAF8;
+    display: flex;
+    width: 75%;
+    height: 30%;
+    padding: 50px 120px;
+    background-color:  #3882F6;
+    border-radius: 8px;
+    margin: 6% 0;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+}
+
+.bluebox .button {
+    border: solid white 2px;
+    align-self:  end;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 3% 0;
+}
