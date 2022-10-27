@@ -112,9 +112,9 @@ h2 {
 }
 
 div.box img {
-    padding: 6px;
+    padding: 0;
     border-radius: 16px;
-    border: solid #3882F6 4px;
+    border: solid #3882F6 3px;
 }
 
 div.box p {
@@ -140,7 +140,7 @@ div.box p {
     padding-right: 8%;
 }
 
-.quote p {
+h4 {
     color: #1F2937;
     font-weight: 300;
     font-size: 36px;
